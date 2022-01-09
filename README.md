@@ -1,7 +1,12 @@
 # Note Taker
   ![GitHub license](http://img.shields.io/badge/license-MIT-blue.svg)
   ## Description 
-  Note Taker is an application that allows users to create and save notes. Notes can be edited and deleted.
+  Note Taker is an application that allows users to create and save notes. Notes can be edited and deleted. This application was built using:
+  * HTML
+  * CSS
+  * JavaScript
+  * Express.js
+  
   ## Table of Contents
   * [Installation](#installation)
   * [Questions](#questions)
