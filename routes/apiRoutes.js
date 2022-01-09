@@ -34,5 +34,19 @@ router.post('/notes', (req, res) => {
 });
 
 // add potential delete route here //
+router.delete("/notes/:id", (req, res) => {
+    let id = req.params.id.toString();
+    
+    for (i=0; i < notes.length; i++){
+        if (notes[i].id == id){
+            res.send(notes[i]);
+            notes.splice(i,1);
+            break;
+        }
+    }
+    writeFile(notes);
+    console.log("deleted from notes" + id)
+});
+
 
 module.exports = router, writeFile;
