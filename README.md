@@ -6,13 +6,13 @@
   * CSS
   * JavaScript
   * Express.js
-  
+
   ## Table of Contents
-  * [Installation](#installation)
+  * [Website](#website)
   * [Questions](#questions)
   * [Screenshot](#screenshot)
-  ## Installation 
-  note-taker-jsnbdrx.herokuapp.com
+  ## Website 
+  This application is deployed with Heroku via https://note-taker-jsnbdrx.herokuapp.com/
 
   ## Questions
   Created by Jason B
